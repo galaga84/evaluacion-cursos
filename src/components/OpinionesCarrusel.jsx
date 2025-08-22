@@ -248,7 +248,7 @@ function Header() {
   return (
     <div className="mb-4">
       <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-gray-900">
-        Opiniones y calificación del curso ⭐
+        Opiniones y calificación del curso
       </h1>
       <p className="text-gray-600 mt-1">
         Escribe un comentario breve, califica entre 1 y 5 estrellas y compártelo.
@@ -397,7 +397,3 @@ if (typeof document !== "undefined" && !document.getElementById("no-scrollbar-st
   style.innerHTML = styles;
   document.head.appendChild(style);
 }
-
-
-
-
